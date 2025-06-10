@@ -33,12 +33,12 @@ Use the following GET parameters to customize the text shown.
 ```
 https://nethularankidu.github.io/birthday-wish/
 ```
-* Then, you need to append the parameters, one by one. Before adding, first insert a "?" after the URL, then add the parameter.
+* Then, you need to append the parameters, one by one. Before adding, first insert a "?" after the URL, then add the parameter. <br>
 Example :-
 ```
 https://nethularankidu.github.io/birthday-wish/?title=Happy 21<sup>th</sup> Birthday!
 ```
-* When adding more parameters, remember to add "&" between them
+* When adding more parameters, remember to add "&" between them <br>
 Example :-
 ```
 https://nethularankidu.github.io/birthday-wish/?title=Happy 21<sup>th</sup> Birthday!&name=Dear wintergreen6631,
