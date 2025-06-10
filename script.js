@@ -28,7 +28,7 @@ function start() {
     if (profile_pic != null) {
         pfp.src = profile_pic;
     } else {
-        pfp.src = "assets/placeholder-pfp.png";
+        pfp.src = "assets/placeholder-pfp.jpg";
     }
 
     if (name_with_title != null) {
