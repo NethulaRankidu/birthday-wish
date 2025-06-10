@@ -56,6 +56,7 @@ https://nethularankidu.github.io/birthday-wish/?title=Happy 21<sup>th</sup> Birt
 │   ├── balloon.png (balloons used in birthday card)
 │   └── placeholder-pfp.jpg (placeholder profile picture used in webpage, a unknown man icon)
 ├── index.html (the main webpage with structure)
+├── LICENSE (the MIT license which is used in this project)
 ├── readme.md (the readme file, the one you're currently reading)
 ├── script.js (the file which checks the GET parameters and appends them for the website)
 └── style.css (the file which has the stylings)
