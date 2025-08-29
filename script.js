@@ -5,6 +5,7 @@ function start() {
     var nameWithTitle = document.getElementById("birthdayName");
     var wish = document.getElementById("birthdayWish");
     var sender = document.getElementById("birthdaySender");
+    var body = document.getElementById("body");
 
     // Finding the GET parameters from the URL and assigning them
     const urlParams = new URLSearchParams(window.location.search);
@@ -13,11 +14,13 @@ function start() {
     const name_with_title = urlParams.get('name');
     const birthday_wish = urlParams.get('wish');
     const wish_sender = urlParams.get('sender');
+    const body_bg = urlParams.get('bg');
     console.log(birthday_title);
     console.log(profile_pic);
     console.log(name_with_title);
     console.log(birthday_wish);
     console.log(wish_sender);
+    console.log(body_bg);
 
     if (birthday_title != null) {
         birthdayTitle.innerHTML = birthday_title;
@@ -49,4 +52,9 @@ function start() {
         sender.innerHTML = "From: Anon";
     }
 
+    if (body_bg != null) {
+        body.style = "background-image: url("+ body_bg + ")";
+    } else {
+        body.style = "background-image: url(assets/background.jpg)";
+    }
 }

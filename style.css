@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Cursive:wght@400..700&display=swap');
 
 body {
-    background-image: url(assets/background.jpg);
     background-size: initial;
     color: white;
     font-family: "Edu NSW ACT Cursive", cursive;
